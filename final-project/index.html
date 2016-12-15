@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../global.css" rel="stylesheet"/>
+    <link href="./style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <h1>2015 Boston Permits</h1>
+    <div class="buttons">
+      <div class="btn-group" id="btn-group-A">
+        <a>All of Boston</a>
+      </div>
+      <h2>Filter By Neighborhood</h2>
+      <div class="btn-group" id="btn-group-B"></div>
+      <h2>Filter By Type</h2>
+      <div class="btn-group" id="btn-group-C"></div>
+    </div>
+    <section class="canvas" id="canvas"></section>
+    <div class="custom-tooltip">
+        <p class="title"></p>
+        <p class="value"></p>
+    </div>
+</div>
+
+
+<script src="../d3.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="../turf.min.js" charset="utf-8"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>

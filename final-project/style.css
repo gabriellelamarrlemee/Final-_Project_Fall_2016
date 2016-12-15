@@ -1,0 +1,58 @@
+body {
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.axis .tick line{
+    stroke:rgb(150,150,150);
+}
+
+.axis .tick line{
+    stroke-width:.5px;
+}
+
+.node{
+
+}
+
+.btn{
+  font-family: helvetica;
+  font-size: .75em;
+  padding: 6px 6px;
+  opacity: .5;
+  border-radius: 3px;
+
+}
+
+.btn:active,
+.btn:hover,
+.btn:focus{
+  opacity: 1;
+}
+
+.btn-group{
+  border-radius: 0;
+}
+
+.canvas{
+  display: inline-block;
+  width: 75%;
+}
+
+.buttons{
+  display: inline-block;
+  width: 25%;
+  padding-right: 50px;
+  float: left;
+}
